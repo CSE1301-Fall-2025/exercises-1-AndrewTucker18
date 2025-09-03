@@ -12,6 +12,7 @@ public class E10AgeReader {
 		System.out.println("How old are you?");
 		age = scan.nextInt();
 		System.out.println(age + " is a great age!");
+		scan.close();
 
 	}
 }
